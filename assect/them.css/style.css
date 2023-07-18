@@ -1,0 +1,115 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+                                   /* HEADER */
+ 
+.container{
+   max-width: 1500px;
+   margin: 0 auto;
+}
+.main-navbar {
+   display: flex;
+   justify-content: space-between;
+}
+.main-navbar ul{
+   display: flex;
+   list-style-type: none;
+
+}
+.main-navbar ul li{
+   margin: 10px;
+}
+.main-navbar ul li a{
+   text-decoration: none;
+   color: black;
+}
+.main-navbar ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+ 
+                                     /* MAIN-BANNER */
+
+
+.image-wrapper-inner{
+   display: flex;
+   position: relative;
+   width: 100%;
+}
+.banner{
+    width: 40%;
+    position: absolute;
+    background-color: #ffff;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    margin-left: 50px;
+    
+}
+.banner p{
+   padding:20px 0 ;
+}
+.banner a {
+   background-color: rgb(51, 130, 233);
+   color: #ffff;
+   padding: 10px;
+   text-decoration: none;
+   border-radius: 3px;
+}
+.header-image-wrapper{
+   width: 100%;
+}
+.header-image-wrapper img{
+   width: 100%;
+   margin-top: 10px;
+}
+
+
+                                                 /* MAIN CONTENT  */
+
+
+.main-wrapper{
+   width: 100%;
+}
+.ms-products{
+   display: flex;
+   margin: 40px;
+}
+.ms-product {
+   padding: 10px;
+}
+.ms-product img{
+   width: 100%;
+}
+.ms-product h2{
+   margin: 5px 0;
+}
+.ms-product p{
+   margin: 5px 0;
+}
+.ms-product a{
+   list-style-type: none;
+   text-decoration: none;
+   color: rgb(51, 130, 233);
+}
+
+
+                                   /* APP BANER */
+
+
+.site-app-inner{
+   width: 100%;
+   display: flex;
+   position: relative;
+}
+ .app-box{
+   position: absolute;
+   background-color: red;
+}
+
+.site-app-inner img{
+   width: 100%;
+}
