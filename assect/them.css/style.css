@@ -7,7 +7,7 @@
                                    /* HEADER */
  
 .container{
-   max-width: 1500px;
+   max-width: 1400px;
    margin: 0 auto;
 }
 .main-navbar {
@@ -76,10 +76,10 @@
 }
 .ms-products{
    display: flex;
-   margin: 40px;
+   margin: 50px 0;
 }
 .ms-product {
-   padding: 10px;
+   padding: 15px;
 }
 .ms-product img{
    width: 100%;
@@ -88,12 +88,14 @@
    margin: 5px 0;
 }
 .ms-product p{
-   margin: 5px 0;
+   margin: 10px 0;
 }
-.ms-product a{
-   list-style-type: none;
+.ms-product a {
    text-decoration: none;
    color: rgb(51, 130, 233);
+}
+.ms-product a:hover{
+   border-bottom: 1px rgb(51, 130, 233) solid;
 }
 
 
@@ -105,11 +107,174 @@
    display: flex;
    position: relative;
 }
- .app-box{
-   position: absolute;
-   background-color: red;
-}
-
 .site-app-inner img{
    width: 100%;
+   margin: 50px 0;
 }
+.site-app-inner .app-box{
+   width: 40%;
+   position: absolute;
+   top: 50%;
+   right: 50%;
+   transform: translateY(-50%);
+}
+.app-box h1 {
+   margin: 20px 0;
+}
+.app-box p {
+   margin: 20px 0;
+}
+.app-box a{
+   text-decoration: none;
+   border-radius: 1px;
+   background-color: rgb(51, 130, 233) ;
+   color: #ffff;
+   padding: 10px;
+}
+
+
+
+                                           /* FOR BUSINESS */
+
+
+.for-business{
+   margin: 20px 0;
+}
+.our-business{
+   width: 100%;
+}
+
+.our-business-inner{
+   display: flex;
+   margin-bottom: 50px;
+}
+.ms-business {
+   padding-right: 20px;
+}
+.ms-business img{
+   width: 100%;
+}
+.ms-business h2{
+   margin: 20px 0;
+}
+
+.ms-business p{
+   margin: 10px 0;
+}
+
+.ms-business a{
+   text-decoration: none;
+   color:rgb(51, 130, 233) ;
+}
+.ms-business a:hover{
+   border-bottom: 1px solid rgb(51, 130, 233);
+}
+
+
+                         /* Social-media */
+
+
+.media-bar-inner ul{
+   display: flex;
+}
+.media-bar-inner ul li{
+   list-style-type: none;
+   margin: 10px;
+}
+.media-bar-inner ul li a{
+   text-decoration: none;
+   color: rgb(51, 130, 233);
+}
+
+
+
+                                 /* SITE BASIC PAGE */
+
+
+.site-basicpage{
+   background-color: #eeee;
+}
+.site-basicpage-inner{
+   display: flex;
+   justify-content: space-between;
+}
+.basicpage-wrapper h4 {
+   padding: 40px 0 5px 0;
+   color: rgb(31, 30, 30);
+}
+.basicpage-wrapper ul{
+   list-style-type: none;
+}
+.basicpage-wrapper ul li{
+   padding: 5px 0;
+}
+.basicpage-wrapper ul li a{
+   text-decoration: none;
+   color: rgb(76, 70, 70);
+}
+.basicpage-wrapper ul li a:hover{
+   border-bottom: solid 1px rgb(37, 36, 36);
+}
+
+.back-to-top{
+   display: flex;
+   justify-content: end;
+   padding: 40px 0;
+   
+}
+.back-to-top a{
+   text-decoration: none;
+   background-color: #bebebeee;
+   font:20px bold ;
+   color: rgb(56, 53, 53);
+}
+.back-to-top a:hover{
+   background-color: white;
+}
+
+
+
+
+
+
+
+                                           /* Bottem Nav */
+
+
+.bottem-nav-inner {
+   justify-content: space-between;
+   display: flex;
+}
+.bottem-nav-inner ul{
+     display: flex;
+     list-style-type: none;
+     padding: 35px 0;
+}
+.bottem-nav-inner ul li{
+    padding: 0 15px;
+}
+.bottem-nav-inner ul li a{
+     text-decoration: none;
+     color: rgb(76, 70, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
